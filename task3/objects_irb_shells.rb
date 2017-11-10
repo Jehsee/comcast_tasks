@@ -16,7 +16,6 @@ apple = Apple.new(variety: 'Honeycrisp', origin: 'Minnesota', history: 'Introduc
 require 'YAML'
 
 File.open('apple.rb', 'w') {|f| f.write(YAML.dump(apple)) }
-# => 101
 
 
 #################################
